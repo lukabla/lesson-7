@@ -52,6 +52,10 @@ header {
   font-weight: bold;
 }
 
+section {
+  max-width: 1920px;
+}
+
 /* navigation end */
 
 /* hover */
@@ -86,7 +90,7 @@ header {
   height: 1000px;
   margin: 50px auto;
   background-color: green;
-  border: 30px dotted red;
+  border: 30px double red;
   animation-name: anime;
   animation-duration: 5s;
   animation-delay: 0.5s;
@@ -97,7 +101,7 @@ header {
   border-radius: 30%;
   justify-content: center;
   align-items: center;
-  outline: 30px solid rgb(32, 84, 218);
+  outline: 30px solid rgb(79, 10, 122);
 }
 @keyframes luka {
   0% {
