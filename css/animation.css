@@ -72,10 +72,19 @@ header {
 }
 
 /* hover end */
+
+.image {
+  animation-name: luka;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+}
+
 .animation {
   width: 1000px;
   height: 1000px;
-  margin: auto;
+  margin: 50px auto;
   background-color: green;
   border: 30px dotted red;
   animation-name: anime;
@@ -84,6 +93,15 @@ header {
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  display: flex;
+  border-radius: 30%;
+  justify-content: center;
+  align-items: center;
+  outline: 30px solid rgb(32, 84, 218);
+}
+@keyframes luka {
+  0% {
+  }
 }
 @keyframes anime {
   0% {
