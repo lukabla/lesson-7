@@ -52,10 +52,6 @@ header {
   font-weight: bold;
 }
 
-section {
-  max-width: 1920px;
-}
-
 /* navigation end */
 
 /* hover */
@@ -77,42 +73,104 @@ section {
 
 /* hover end */
 
-.image {
-  animation-name: luka;
-  display: flex;
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-}
+/* main */
 
-.animation {
-  width: 1000px;
-  height: 1000px;
-  margin: 50px auto;
-  background-color: green;
-  border: 30px double red;
-  animation-name: anime;
-  animation-duration: 5s;
-  animation-delay: 0.5s;
-  animation-timing-function: ease;
+.animation3 {
+  max-width: 1920px;
+  animation-name: animation3;
+  animation-duration: 1s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  display: flex;
-  border-radius: 30%;
-  justify-content: center;
-  align-items: center;
-  outline: 30px solid rgb(79, 10, 122);
+  animation-timing-function: ease-in-out;
 }
-@keyframes luka {
-  0% {
+@keyframes animation3 {
+  from {
+    background-color: #df5086;
+  }
+  to {
+    background-color: rgb(129, 76, 199);
   }
 }
-@keyframes anime {
-  0% {
-    background-color: green;
+
+.line {
+  height: 110px;
+  width: 100px;
+  animation-name: line;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  border: 10px black double;
+  border-radius: 40px;
+  animation-direction: alternate;
+}
+
+.green {
+  background-color: rgb(4, 94, 4);
+}
+.red {
+  background-color: rgb(180, 0, 0);
+}
+.blue {
+  background-color: rgb(5, 5, 145);
+}
+.yellow {
+  background-color: rgb(255, 255, 7);
+}
+.pink {
+  background-color: rgb(232, 123, 141);
+}
+.orange {
+  background-color: rgb(252, 101, 0);
+}
+.gray {
+  background-color: rgb(95, 238, 103);
+}
+.purple {
+  background-color: rgb(80, 4, 80);
+}
+.black {
+  background-color: rgb(17, 144, 194);
+}
+.white {
+  background-color: rgb(3, 42, 56);
+}
+.dark {
+  background-color: rgb(66, 0, 0);
+}
+.light {
+  background-color: rgb(126, 133, 27);
+}
+.blad {
+  background-color: rgb(187, 119, 250);
+}
+.luka {
+  background-color: rgb(135, 206, 250);
+}
+.nini {
+  background-color: rgb(104, 22, 0);
+}
+.buwu {
+  background-color: rgb(189, 7, 156);
+}
+.red,
+.yellow,
+.orange,
+.purple,
+.white,
+.light,
+.luka,
+.buwu {
+  animation-direction: alternate-reverse;
+}
+
+@keyframes line {
+  from {
+    width: 0px;
   }
-  100% {
-    background-color: yellow;
+  to {
+    width: 100%;
   }
 }
 

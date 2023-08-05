@@ -1,6 +1,6 @@
 header {
   background-color: #0020f4;
-  height: 387.56px;
+  height: 200px;
   max-width: 1920px;
   width: 100%;
 }
@@ -73,9 +73,9 @@ header {
 
 /* hover end */
 main {
-  height: 1600px;
+  height: 1750px;
   max-width: 1920px;
-  background-color: aqua;
+  background-color: #02450a;
 }
 
 .green {
